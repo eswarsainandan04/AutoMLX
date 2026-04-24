@@ -13,6 +13,8 @@ AutoML is a full-stack application for dataset ingestion, preprocessing, feature
 - frontend/: Next.js UI
 - storage/: Local fallback data storage under backend
 
+
+
 ## Prerequisites
 - Python 3.10+
 - Node.js 18+
@@ -47,6 +49,8 @@ Notes:
 ## Execution Steps
 
 ### 1) Start the backend
+#### Repositories
+- Backend: https://github.com/eswarsainandan04/automl-backend
 ```
 cd backend
 python -m venv .venv
@@ -67,6 +71,23 @@ npm run dev
 
 Frontend:
 - http://localhost:3000/
+
+## Screenshots
+
+### Upload
+![Upload](upload.png)
+
+### Overview
+![Overview](overview.png)
+
+### Feature Engineering
+![Feature Engineering](feature.png)
+
+### Model Building
+![Model Building](model_bulding.png)
+
+### Analytics
+![Analytics](analytics.png)
 
 ## Optional: Docker (backend only)
 ```
