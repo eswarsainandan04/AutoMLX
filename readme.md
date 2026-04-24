@@ -2,6 +2,9 @@
 
 It is a Semi-AutoML full-stack application for dataset ingestion, preprocessing, feature engineering, model training, evaluation, and analytics. The backend is a FastAPI service with an AutoML pipeline, and the frontend is a Next.js dashboard UI.
 
+## Live Demo
+https://automlx.vercel.app/
+
 ## Tech Stack
 - Backend: Python 3.10, FastAPI, AutoGluon, scikit-learn, CatBoost, LightGBM, XGBoost
 - Frontend: Next.js (App Router), React, Chart.js
